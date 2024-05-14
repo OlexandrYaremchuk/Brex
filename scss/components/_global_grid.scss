@@ -1,0 +1,7 @@
+body {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: minmax(60px, auto) minmax(740px, 5fr) minxmax(1196px, auto);
+    font-family: $font_family;
+    font-size: 14px;
+}

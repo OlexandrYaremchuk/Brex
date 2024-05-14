@@ -1,9 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,+BAA+B;EAC5C,KAAK,EAAE,IAAI;CAEd",
+    "mappings": "",
     "sources": [
-        "../scss/Valentin.scss"
+        "../scss/main.scss"
     ],
     "names": [],
-    "file": "Valentin.css"
+    "file": "main.css"
 }
