@@ -1,1 +1,9 @@
-/*# sourceMappingURL=main.css.map */
+h1 {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+}
+
+p {
+  background-color: antiquewhite;
+}/*# sourceMappingURL=main.css.map */
