@@ -1,1 +1,118 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.text1 {
+  color: #171717;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+.text2 {
+  color: green;
+  font-size: 32px;
+  font-family: "Verdana";
+  font-weight: 100;
+}
+
+.text3 {
+  color: blue;
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.accent_btn, .header_btn .contact_btn {
+  padding: 13px 32px;
+  background-color: #F46A35;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #F46A35;
+}
+
+.contrast_btn {
+  padding: 13px 32px;
+  background-color: white;
+  color: #212121;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #EDEFEE;
+}
+.contrast_btn:hover {
+  background-color: #171717;
+}
+
+.header_login_btn, .header_btn .login_btn {
+  padding: 8px 12px;
+  background-color: white;
+  color: #212121;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.header_login_btn:hover, .header_btn .login_btn:hover {
+  border-radius: 10px;
+  border: 1px solid #EDEFEE;
+}
+
+.title_text {
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.04em;
+  color: #212121;
+}
+
+.head_text {
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+}
+
+.main_text {
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.footer_text {
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  display: grid;
+  grid-template-rows: minmax(60px, auto) minmax(740px, 5fr) minmax(1196px, auto);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  width: 95%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr;
+  align-items: center;
+}
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+.header_nav_item {
+  margin-right: 57px;
+  cursor: pointer;
+}
+.header_btn {
+  justify-self: flex-end;
+}
+.header_btn a {
+  margin-right: 38px;
+}/*# sourceMappingURL=main.css.map */

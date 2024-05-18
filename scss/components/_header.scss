@@ -1,0 +1,29 @@
+.header {
+    width: 95%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr;
+    align-items: center;
+
+    &_nav {
+        display: flex;
+        align-items: center;
+
+        &_item {
+            margin-right: 57px;
+            cursor: pointer;
+        }
+    }
+
+    &_btn {
+        justify-self: flex-end;
+
+        a {
+            margin-right: 38px;
+        }
+
+        .login_btn {}
+
+        .contact_btn {}
+    }
+}

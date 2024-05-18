@@ -1,0 +1,21 @@
+@mixin text_formated ($color, $size, $font_name, $weight ) {
+    color: map-get($color_data , $color );
+    font-size: $size;
+    font-family: map-get($font_family , $font_name);
+    font-weight: $weight;
+}
+
+.text1 {
+    @include text_formated("footer_color", 16px, 'Roboto', 800);
+
+}
+
+.text2 {
+    @include text_formated(green, 32px, 'Verdana', 100)
+}
+
+.text3 {
+    @include text_formated(blue, 12px, 'Verdana', 500);
+    text-transform: uppercase;
+
+}
