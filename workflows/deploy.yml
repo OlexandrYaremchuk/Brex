@@ -16,8 +16,8 @@ jobs:
     - name: Upload to FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./your-local-directory
+        ftp-server: "ftpupload.net"
+        ftp-username: "if0_36630469"
+        ftp-password: PNkEaKHPzMUqs2
+        local-dir: /htdocs
         git-ftp-args: --insecure
