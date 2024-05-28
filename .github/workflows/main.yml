@@ -1,0 +1,23 @@
+name: Deploy to TheHost
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Upload to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        ftp-server: "ftpupload.net"
+        ftp-username: "if0_36630469"
+        ftp-password: PNkEaKHPzMUqs2
+        local-dir: /htdocs
+        git-ftp-args: --insecure
