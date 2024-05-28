@@ -19,5 +19,5 @@ jobs:
         server: "ftpupload.net"
         username: "if0_36630469"
         password: PNkEaKHPzMUqs2
-        local-dir: /htdocs
+        local-dir: /htdocs/
         git-ftp-args: --insecure
