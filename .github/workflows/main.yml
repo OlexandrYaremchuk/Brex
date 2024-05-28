@@ -20,4 +20,4 @@ jobs:
         username: "if0_36630469"
         password: PNkEaKHPzMUqs2
         local-dir: /
-        git-ftp-args: --insecure
+         
